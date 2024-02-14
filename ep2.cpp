@@ -11,7 +11,7 @@ struct employee{
         {
             cout<<"enter an employee id:";
             cin>>id;
-            if(id>999&&id<10000)
+            if(id<=1000)
             {
             cout<<"enter the employee name:";
             cin>>empname;
